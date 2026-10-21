@@ -383,10 +383,8 @@ public class ConfigScreen extends class_437 {
     }
 
     /** Vanilla button click sound (used by the category tabs). */
-    private static void playClick() {
-        net.minecraft.client.MinecraftClient.getInstance().getSoundManager().play(
-                net.minecraft.client.sound.PositionedSoundInstance.master(net.minecraft.sound.SoundEvents.UI_BUTTON_CLICK.value(), 1.0F));
-    }
+   private static void playClick() {
+   }
 
     // ------------------------------------------------------------- mods grid
     private static final int CARD_H = 74, CARD_GAP = 4, MIN_CARD_W = 80;
